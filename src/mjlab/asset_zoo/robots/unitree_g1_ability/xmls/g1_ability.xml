@@ -533,7 +533,7 @@
                             <site name="left_palm" pos="0.024 0.004 0.032" size="0.01"/>
                             <!--Index-->
                             <body name="l_index_prox" pos="0.0279216 -0.00927034 0.0958706" quat="-0.714459 -0.129917 0.685906 0.0469401">
-                                <joint class="l_finger_mcp_joint" name="l_index_mcp"/>
+                                <!-- <joint class="l_finger_mcp_joint" name="l_index_mcp"/> -->
                                 <geom class="l_proximal_collision"/>
                                 <geom class="l_finger_prox_vis"/>
                                 <body name="l_index_int_dist" pos="0.0384727 0.0032577 0" quat="0.999108 0 0 0.0422244">
@@ -543,18 +543,18 @@
                                   <site class="l_fsr_3" name="l_fsr3"/>
                                   <site class="l_fsr_4" name="l_fsr4"/>
                                   <site class="l_fsr_5" name="l_fsr5"/>
-                                  <joint class="l_finger_pip_joint" name="l_index_pip"/>
+                                  <!-- <joint class="l_finger_pip_joint" name="l_index_pip"/> -->
                                   <geom class="l_int_dist_collision"/>
                                   <geom class="l_finger_int_dist_vis"/>
                                 </body>
                             </body>
                             <!--Middle-->
                             <body name="l_middle_prox" pos="0.00841718 -0.0115172 0.0990634" quat="-0.698395 -0.103508 0.704562 0.0715738">
-                                <joint class="l_finger_mcp_joint" name="l_middle_mcp"/>
+                                <!-- <joint class="l_finger_mcp_joint" name="l_middle_mcp"/> -->
                                 <geom class="l_proximal_collision"/>
                                 <geom class="l_finger_prox_vis"/>
                                 <body name="l_middle_int_dist" pos="0.0384727 0.0032577 0" quat="0.999108 0 0 0.0422244">
-                                  <joint class="l_finger_pip_joint" name="l_middle_pip"/>
+                                  <!-- <joint class="l_finger_pip_joint" name="l_middle_pip"/> -->
                                   <site class="l_fsr_0" name="l_fsr6"/>
                                   <site class="l_fsr_1" name="l_fsr7"/>
                                   <site class="l_fsr_2" name="l_fsr8"/>
@@ -567,11 +567,11 @@
                             </body>
                             <!--Ring-->
                             <body name="l_ring_prox" pos="-0.0117529 -0.0103946 0.0967038" quat="-0.681173 -0.0769649 0.721351 0.0986547">
-                                <joint class="l_finger_mcp_joint" name="l_ring_mcp"/>
+                                <!-- <joint class="l_finger_mcp_joint" name="l_ring_mcp"/> -->
                                 <geom class="l_proximal_collision"/>
                                 <geom class="l_finger_prox_vis"/>
                                 <body name="l_ring_int_dist" pos="0.0384727 0.0032577 0" quat="0.999108 0 0 0.0422244">
-                                  <joint class="l_finger_pip_joint" name="l_ring_pip"/>
+                                  <!-- <joint class="l_finger_pip_joint" name="l_ring_pip"/> -->
                                   <site class="l_fsr_0" name="l_fsr12"/>
                                   <site class="l_fsr_1" name="l_fsr13"/>
                                   <site class="l_fsr_2" name="l_fsr14"/>
@@ -584,11 +584,11 @@
                             </body>
                             <!--Pinky-->
                             <body name="l_pinky_prox" pos="-0.0308633 -0.00716283 0.0907346" quat="-0.681748 -0.0544096 0.719226 0.122363" >
-                                <joint class="l_finger_mcp_joint" name="l_pinky_mcp"/>
+                                <!-- <joint class="l_finger_mcp_joint" name="l_pinky_mcp"/> -->
                                 <geom class="l_proximal_collision"/>
                                 <geom class="l_finger_prox_vis"/>
                                 <body name="l_pinky_int_dist" pos="0.0384727 0.0032577 0" quat="0.999108 0 0 0.0422244">
-                                  <joint class="l_finger_pip_joint" name="l_pinky_pip"/>
+                                  <!-- <joint class="l_finger_pip_joint" name="l_pinky_pip"/> -->
                                   <site class="l_fsr_0" name="l_fsr18" pos="0.02556 -0.01391 -0.00435" quat="0.00000 0.99797 -0.06376 -0.00000"/>
                                   <site class="l_fsr_1" name="l_fsr19" pos="0.02517 -0.01110 -0.00000" quat="-0.70527 0.70527 -0.05099 0.05099"/>
                                   <site class="l_fsr_2" name="l_fsr20" pos="0.02556 -0.01391 0.00435" quat="0.99797 -0.00000 0.00000 -0.06376"/>
@@ -601,11 +601,11 @@
                             </body>
                             <!--Thumb-->
                             <body name="l_thumb_metacarp" pos="0.0240477 0.00378125 0.0323296" quat="-0.00419696 0.994514 -0.0947972 0.0440301">
-                              <joint class="l_thumb_cmc_joint" name="l_thumb_cmc"/>
+                              <!-- <joint class="l_thumb_cmc_joint" name="l_thumb_cmc"/> -->
                               <geom class="l_thumb_metacarp_vis"/>
                               <geom class="l_thumb_metacarp_collision"/>
                               <body name="l_thumb_mcp" pos="0.0278284 0 -0.0147507" quat="-0.608761 0.793353 0 0">
-                                <joint class="l_thumb_mcp_joint" name="l_thumb_mcp"/>
+                                <!-- <joint class="l_thumb_mcp_joint" name="l_thumb_mcp"/> -->
                                 <site class="l_t_fsr_0" name="l_fsr24"/>
                                 <site class="l_t_fsr_1" name="l_fsr25"/>
                                 <site class="l_t_fsr_2" name="l_fsr26"/>
@@ -672,7 +672,7 @@
                             <site name="right_palm" pos="-0.024 0.004 0.032" size="0.01"/>
                             <!--Index-->
                             <body name="index_prox" pos="-0.0279216 -0.00927034 0.0958706" quat="0.685906 0.0469401 -0.714459 -0.129917">
-                                <joint class="finger_mcp_joint" name="index_mcp"/>
+                                <!-- <joint class="finger_mcp_joint" name="index_mcp"/> -->
                                 <geom name="idx_prox_coll" class="proximal_collision"/>
                                 <geom class="finger_prox_vis"/>
                                 <body name="index_int_dist" pos="0.0384727 0.0032577 0" quat="0.999108 0 0 0.0422244">
@@ -682,18 +682,18 @@
                                   <site class="fsr_3" name="fsr3"/>
                                   <site class="fsr_4" name="fsr4"/>
                                   <site class="fsr_5" name="fsr5"/>
-                                  <joint class="finger_pip_joint" name="index_pip"/>
+                                  <!-- <joint class="finger_pip_joint" name="index_pip"/> -->
                                   <geom class="int_dist_collision"/>
                                   <geom class="finger_int_dist_vis"/>
                                 </body>
                             </body>
                             <!--Middle-->
                             <body name="middle_prox" pos="-0.00841718 -0.0115172 0.0990634" quat="0.704562 0.0715738 -0.698395 -0.103508">
-                                <joint class="finger_mcp_joint" name="middle_mcp"/>
+                                <!-- <joint class="finger_mcp_joint" name="middle_mcp"/> -->
                                 <geom class="proximal_collision"/>
                                 <geom class="finger_prox_vis"/>
                                 <body name="middle_int_dist" pos="0.0384727 0.0032577 0" quat="0.999108 0 0 0.0422244">
-                                  <joint class="finger_pip_joint" name="middle_pip"/>
+                                  <!-- <joint class="finger_pip_joint" name="middle_pip"/> -->
                                   <site class="fsr_0" name="fsr6"/>
                                   <site class="fsr_1" name="fsr7"/>
                                   <site class="fsr_2" name="fsr8"/>
@@ -706,11 +706,11 @@
                             </body>
                             <!--Ring-->
                             <body name="ring_prox" pos="0.0117529 -0.0103946 0.0967038" quat="0.721351 0.0986547 -0.681173 -0.0769649">
-                                <joint class="finger_mcp_joint" name="ring_mcp"/>
+                                <!-- <joint class="finger_mcp_joint" name="ring_mcp"/> -->
                                 <geom class="proximal_collision"/>
                                 <geom class="finger_prox_vis"/>
                                 <body name="ring_int_dist" pos="0.0384727 0.0032577 0" quat="0.999108 0 0 0.0422244">
-                                  <joint class="finger_pip_joint" name="ring_pip"/>
+                                  <!-- <joint class="finger_pip_joint" name="ring_pip"/> -->
                                   <site class="fsr_0" name="fsr12"/>
                                   <site class="fsr_1" name="fsr13"/>
                                   <site class="fsr_2" name="fsr14"/>
@@ -723,11 +723,11 @@
                             </body>
                             <!--Pinky-->
                             <body name="pinky_prox" pos="0.0308633 -0.00716283 0.0907346" quat="0.719226 0.122363 -0.681748 -0.0544096">
-                                <joint class="finger_mcp_joint" name="pinky_mcp"/>
+                                <!-- <joint class="finger_mcp_joint" name="pinky_mcp"/> -->
                                 <geom class="proximal_collision"/>
                                 <geom class="finger_prox_vis"/>
                                 <body name="pinky_int_dist" pos="0.0384727 0.0032577 0" quat="0.999108 0 0 0.0422244">
-                                  <joint class="finger_pip_joint" name="pinky_pip"/>
+                                  <!-- <joint class="finger_pip_joint" name="pinky_pip"/> -->
                                   <site class="fsr_0" name="fsr18" pos="0.02556 -0.01391 -0.00435" quat="0.00000 0.99797 -0.06376 -0.00000"/>
                                   <site class="fsr_1" name="fsr19" pos="0.02517 -0.01110 -0.00000" quat="-0.70527 0.70527 -0.05099 0.05099"/>
                                   <site class="fsr_2" name="fsr20" pos="0.02556 -0.01391 0.00435" quat="0.99797 -0.00000 0.00000 -0.06376"/>
@@ -740,11 +740,11 @@
                             </body>
                             <!--Thumb-->
                             <body name="thumb_metacarp" pos="-0.0240477 0.00378125 0.0323296" quat="-0.0947972 0.0440301 -0.00419696 0.994514">
-                              <joint class="thumb_cmc_joint" name="thumb_cmc"/>
+                              <!-- <joint class="thumb_cmc_joint" name="thumb_cmc"/> -->
                               <geom class="thumb_metacarp_vis"/>
                               <geom class="thumb_metacarp_collision"/>
                               <body name="thumb_mcp" pos="0.0278284 0 0.0147507" quat="0.608761 0.793353 0 0">
-                                <joint class="thumb_mcp_joint" name="thumb_mcp"/>
+                                <!-- <joint class="thumb_mcp_joint" name="thumb_mcp"/> -->
                                 <site class="t_fsr_0" name="fsr24"/>
                                 <site class="t_fsr_1" name="fsr25"/>
                                 <site class="t_fsr_2" name="fsr26"/>
@@ -782,67 +782,67 @@
     <subtreeangmom name="root_angmom" body="pelvis"/>
 
     <!-- Right Hand FSR Touch Sensors -->
-    <touch name="touch_fsr0"  site="fsr0"/>
-    <touch name="touch_fsr1"  site="fsr1"/>
-    <touch name="touch_fsr2"  site="fsr2"/>
-    <touch name="touch_fsr3"  site="fsr3"/>
-    <touch name="touch_fsr4"  site="fsr4"/>
-    <touch name="touch_fsr5"  site="fsr5"/>
-    <touch name="touch_fsr6"  site="fsr6"/>
-    <touch name="touch_fsr7"  site="fsr7"/>
-    <touch name="touch_fsr8"  site="fsr8"/>
-    <touch name="touch_fsr9"  site="fsr9"/>
-    <touch name="touch_fsr10" site="fsr10"/>
-    <touch name="touch_fsr11" site="fsr11"/>
-    <touch name="touch_fsr12" site="fsr12"/>
-    <touch name="touch_fsr13" site="fsr13"/>
-    <touch name="touch_fsr14" site="fsr14"/>
-    <touch name="touch_fsr15" site="fsr15"/>
-    <touch name="touch_fsr16" site="fsr16"/>
-    <touch name="touch_fsr17" site="fsr17"/>
-    <touch name="touch_fsr18" site="fsr18"/>
-    <touch name="touch_fsr19" site="fsr19"/>
-    <touch name="touch_fsr20" site="fsr20"/>
-    <touch name="touch_fsr21" site="fsr21"/>
-    <touch name="touch_fsr22" site="fsr22"/>
-    <touch name="touch_fsr23" site="fsr23"/>
-    <touch name="touch_fsr24" site="fsr24"/>
-    <touch name="touch_fsr25" site="fsr25"/>
-    <touch name="touch_fsr26" site="fsr26"/>
-    <touch name="touch_fsr27" site="fsr27"/>
-    <touch name="touch_fsr28" site="fsr28"/>
-    <touch name="touch_fsr29" site="fsr29"/>
+    <!-- <touch name="touch_fsr0"  site="fsr0"/> -->
+    <!-- <touch name="touch_fsr1"  site="fsr1"/>-->
+    <!-- <touch name="touch_fsr2"  site="fsr2"/>-->
+    <!-- <touch name="touch_fsr3"  site="fsr3"/>-->
+    <!-- <touch name="touch_fsr4"  site="fsr4"/>-->
+    <!-- <touch name="touch_fsr5"  site="fsr5"/>-->
+    <!-- <touch name="touch_fsr6"  site="fsr6"/>-->
+    <!-- <touch name="touch_fsr7"  site="fsr7"/>-->
+    <!-- <touch name="touch_fsr8"  site="fsr8"/>-->
+    <!-- <touch name="touch_fsr9"  site="fsr9"/>-->
+    <!-- <touch name="touch_fsr10" site="fsr10"/>-->
+    <!-- <touch name="touch_fsr11" site="fsr11"/>-->
+    <!-- <touch name="touch_fsr12" site="fsr12"/>-->
+    <!-- <touch name="touch_fsr13" site="fsr13"/>-->
+    <!-- <touch name="touch_fsr14" site="fsr14"/>-->
+    <!-- <touch name="touch_fsr15" site="fsr15"/>-->
+    <!-- <touch name="touch_fsr16" site="fsr16"/>-->
+    <!-- <touch name="touch_fsr17" site="fsr17"/>-->
+    <!-- <touch name="touch_fsr18" site="fsr18"/>-->
+    <!-- <touch name="touch_fsr19" site="fsr19"/>-->
+    <!-- <touch name="touch_fsr20" site="fsr20"/>-->
+    <!-- <touch name="touch_fsr21" site="fsr21"/>-->
+    <!-- <touch name="touch_fsr22" site="fsr22"/>-->
+    <!-- <touch name="touch_fsr23" site="fsr23"/>-->
+    <!-- <touch name="touch_fsr24" site="fsr24"/>-->
+    <!-- <touch name="touch_fsr25" site="fsr25"/>-->
+    <!-- <touch name="touch_fsr26" site="fsr26"/>-->
+    <!-- <touch name="touch_fsr27" site="fsr27"/>-->
+    <!-- <touch name="touch_fsr28" site="fsr28"/>-->
+    <!-- <touch name="touch_fsr29" site="fsr29"/>-->
 
     <!-- Left Hand FSR Touch Sensors -->
-    <touch name="touch_l_fsr0"  site="l_fsr0"/>
-    <touch name="touch_l_fsr1"  site="l_fsr1"/>
-    <touch name="touch_l_fsr2"  site="l_fsr2"/>
-    <touch name="touch_l_fsr3"  site="l_fsr3"/>
-    <touch name="touch_l_fsr4"  site="l_fsr4"/>
-    <touch name="touch_l_fsr5"  site="l_fsr5"/>
-    <touch name="touch_l_fsr6"  site="l_fsr6"/>
-    <touch name="touch_l_fsr7"  site="l_fsr7"/>
-    <touch name="touch_l_fsr8"  site="l_fsr8"/>
-    <touch name="touch_l_fsr9"  site="l_fsr9"/>
-    <touch name="touch_l_fsr10" site="l_fsr10"/>
-    <touch name="touch_l_fsr11" site="l_fsr11"/>
-    <touch name="touch_l_fsr12" site="l_fsr12"/>
-    <touch name="touch_l_fsr13" site="l_fsr13"/>
-    <touch name="touch_l_fsr14" site="l_fsr14"/>
-    <touch name="touch_l_fsr15" site="l_fsr15"/>
-    <touch name="touch_l_fsr16" site="l_fsr16"/>
-    <touch name="touch_l_fsr17" site="l_fsr17"/>
-    <touch name="touch_l_fsr18" site="l_fsr18"/>
-    <touch name="touch_l_fsr19" site="l_fsr19"/>
-    <touch name="touch_l_fsr20" site="l_fsr20"/>
-    <touch name="touch_l_fsr21" site="l_fsr21"/>
-    <touch name="touch_l_fsr22" site="l_fsr22"/>
-    <touch name="touch_l_fsr23" site="l_fsr23"/>
-    <touch name="touch_l_fsr24" site="l_fsr24"/>
-    <touch name="touch_l_fsr25" site="l_fsr25"/>
-    <touch name="touch_l_fsr26" site="l_fsr26"/>
-    <touch name="touch_l_fsr27" site="l_fsr27"/>
-    <touch name="touch_l_fsr28" site="l_fsr28"/>
-    <touch name="touch_l_fsr29" site="l_fsr29"/>
+    <!-- <touch name="touch_l_fsr0"  site="l_fsr0"/>  -->
+    <!-- <touch name="touch_l_fsr1"  site="l_fsr1"/> -->
+    <!-- <touch name="touch_l_fsr2"  site="l_fsr2"/> -->
+    <!-- <touch name="touch_l_fsr3"  site="l_fsr3"/> -->
+    <!-- <touch name="touch_l_fsr4"  site="l_fsr4"/> -->
+    <!-- <touch name="touch_l_fsr5"  site="l_fsr5"/> -->
+    <!-- <touch name="touch_l_fsr6"  site="l_fsr6"/> -->
+    <!-- <touch name="touch_l_fsr7"  site="l_fsr7"/> -->
+    <!-- <touch name="touch_l_fsr8"  site="l_fsr8"/> -->
+    <!-- <touch name="touch_l_fsr9"  site="l_fsr9"/> -->
+    <!-- <touch name="touch_l_fsr10" site="l_fsr10"/> -->
+    <!-- <touch name="touch_l_fsr11" site="l_fsr11"/> -->
+    <!-- <touch name="touch_l_fsr12" site="l_fsr12"/> -->
+    <!-- <touch name="touch_l_fsr13" site="l_fsr13"/> -->
+    <!-- <touch name="touch_l_fsr14" site="l_fsr14"/> -->
+    <!-- <touch name="touch_l_fsr15" site="l_fsr15"/> -->
+    <!-- <touch name="touch_l_fsr16" site="l_fsr16"/> -->
+    <!-- <touch name="touch_l_fsr17" site="l_fsr17"/> -->
+    <!-- <touch name="touch_l_fsr18" site="l_fsr18"/> -->
+    <!-- <touch name="touch_l_fsr19" site="l_fsr19"/> -->
+    <!-- <touch name="touch_l_fsr20" site="l_fsr20"/> -->
+    <!-- <touch name="touch_l_fsr21" site="l_fsr21"/> -->
+    <!-- <touch name="touch_l_fsr22" site="l_fsr22"/> -->
+    <!-- <touch name="touch_l_fsr23" site="l_fsr23"/> -->
+    <!-- <touch name="touch_l_fsr24" site="l_fsr24"/> -->
+    <!-- <touch name="touch_l_fsr25" site="l_fsr25"/> -->
+    <!-- <touch name="touch_l_fsr26" site="l_fsr26"/> -->
+    <!-- <touch name="touch_l_fsr27" site="l_fsr27"/> -->
+    <!-- <touch name="touch_l_fsr28" site="l_fsr28"/> -->
+    <!-- <touch name="touch_l_fsr29" site="l_fsr29"/> -->
   </sensor>
 </mujoco>

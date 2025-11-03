@@ -36,6 +36,10 @@ class UnitreeG1AbilityFlatEnvCfg(UnitreeG1AbilityRoughEnvCfg):
       "robot",
       joint_names=controlled_joint_patterns
     )
+    self.observations.policy.joint_pos.params["asset_cfg"] = SceneEntityCfg("robot", joint_names=controlled_joint_patterns)
+    self.observations.policy.joint_vel.params["asset_cfg"] = SceneEntityCfg("robot", joint_names=controlled_joint_patterns)
+    self.observations.critic.joint_pos.params["asset_cfg"] = SceneEntityCfg("robot", joint_names=controlled_joint_patterns)
+    self.observations.critic.joint_vel.params["asset_cfg"] = SceneEntityCfg("robot", joint_names=controlled_joint_patterns)
 
 
 @dataclass
